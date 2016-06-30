@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import br.com.caelum.agenda.dao.ContatoDao;
 import br.com.caelum.agenda.modelo.Contato;
 
-public class ListaContatosLogic implements Logica {
+public class ListaContatoLogic implements Logica {
 
 	@Override
 	public String executa(HttpServletRequest req, HttpServletResponse res)
